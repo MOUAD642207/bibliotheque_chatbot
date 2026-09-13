@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "titre": "Les Misérables",
+    "auteur": "Victor Hugo",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["justice", "misère", "révolution", "société"]
+  },
+  {
+    "id": 2,
+    "titre": "Notre-Dame de Paris",
+    "auteur": "Victor Hugo",
+    "genre": "Classique français",
+    "disponible": false,
+    "mots_cles": ["moyen-âge", "tragédie", "cathédrale", "destin"]
+  },
+  {
+    "id": 3,
+    "titre": "L'Étranger",
+    "auteur": "Albert Camus",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["absurde", "philosophie", "existence", "meurtre"]
+  },
+  {
+    "id": 4,
+    "titre": "La Peste",
+    "auteur": "Albert Camus",
+    "genre": "Classique français",
+    "disponible": false,
+    "mots_cles": ["épidémie", "solidarité", "absurde", "humanisme"]
+  },
+  {
+    "id": 5,
+    "titre": "Madame Bovary",
+    "auteur": "Gustave Flaubert",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["réalisme", "adultère", "province", "ennui"]
+  },
+  {
+    "id": 6,
+    "titre": "L'Éducation sentimentale",
+    "auteur": "Gustave Flaubert",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["amour", "jeunesse", "désillusion", "réalisme"]
+  },
+  {
+    "id": 7,
+    "titre": "Le Rouge et le Noir",
+    "auteur": "Stendhal",
+    "genre": "Classique français",
+    "disponible": false,
+    "mots_cles": ["ambition", "amour", "société", "réalisme"]
+  },
+  {
+    "id": 8,
+    "titre": "La Chartreuse de Parme",
+    "auteur": "Stendhal",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["amour", "politique", "italie", "aventure"]
+  },
+  {
+    "id": 9,
+    "titre": "Le Père Goriot",
+    "auteur": "Honoré de Balzac",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["argent", "ambition", "famille", "paris"]
+  },
+  {
+    "id": 10,
+    "titre": "Eugénie Grandet",
+    "auteur": "Honoré de Balzac",
+    "genre": "Classique français",
+    "disponible": false,
+    "mots_cles": ["avarice", "famille", "province", "argent"]
+  },
+  {
+    "id": 11,
+    "titre": "Germinal",
+    "auteur": "Émile Zola",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["mine", "ouvriers", "révolte", "social"]
+  },
+  {
+    "id": 12,
+    "titre": "L'Assommoir",
+    "auteur": "Émile Zola",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["alcool", "ouvriers", "misère", "paris"]
+  },
+  {
+    "id": 13,
+    "titre": "Nana",
+    "auteur": "Émile Zola",
+    "genre": "Classique français",
+    "disponible": false,
+    "mots_cles": ["prostitution", "société", "paris", "naturalisme"]
+  },
+  {
+    "id": 14,
+    "titre": "Bel-Ami",
+    "auteur": "Guy de Maupassant",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["ambition", "journalisme", "paris", "manipulation"]
+  },
+  {
+    "id": 15,
+    "titre": "Une vie",
+    "auteur": "Guy de Maupassant",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["femme", "désillusion", "normandie", "réalisme"]
+  },
+  {
+    "id": 16,
+    "titre": "Le Comte de Monte-Cristo",
+    "auteur": "Alexandre Dumas",
+    "genre": "Classique français",
+    "disponible": false,
+    "mots_cles": ["vengeance", "aventure", "prison", "justice"]
+  },
+  {
+    "id": 17,
+    "titre": "Les Trois Mousquetaires",
+    "auteur": "Alexandre Dumas",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["aventure", "amitié", "honneur", "cape et épée"]
+  },
+  {
+    "id": 18,
+    "titre": "Vingt ans après",
+    "auteur": "Alexandre Dumas",
+    "genre": "Classique français",
+    "disponible": true,
+    "mots_cles": ["aventure", "amitié", "fronde", "cape et épée"]
+  },
+  {
+    "id": 19,
+    "titre": "Les Fleurs du mal",
+    "auteur": "Charles Baudelaire",
+    "genre": "Poésie / Théâtre",
+    "disponible": true,
+    "mots_cles": ["poésie", "spleen", "beauté", "modernité"]
+  },
+  {
+    "id": 20,
+    "titre": "Le Spleen de Paris",
+    "auteur": "Charles Baudelaire",
+    "genre": "Poésie / Théâtre",
+    "disponible": false,
+    "mots_cles": ["poésie", "paris", "rêve", "prose"]
+  },
+  {
+    "id": 21,
+    "titre": "Les Contemplations",
+    "auteur": "Victor Hugo",
+    "genre": "Poésie / Théâtre",
+    "disponible": true,
+    "mots_cles": ["poésie", "deuil", "amour", "nature"]
+  },
+  {
+    "id": 22,
+    "titre": "Alcools",
+    "auteur": "Guillaume Apollinaire",
+    "genre": "Poésie / Théâtre",
+    "disponible": true,
+    "mots_cles": ["poésie", "modernité", "amour", "surréalisme"]
+  },
+  {
+    "id": 23,
+    "titre": "Le Cid",
+    "auteur": "Pierre Corneille",
+    "genre": "Poésie / Théâtre",
+    "disponible": false,
+    "mots_cles": ["théâtre", "honneur", "amour", "tragédie"]
+  },
+  {
+    "id": 24,
+    "titre": "Phèdre",
+    "auteur": "Jean Racine",
+    "genre": "Poésie / Théâtre",
+    "disponible": true,
+    "mots_cles": ["théâtre", "tragédie", "passion", "mythologie"]
+  },
+  {
+    "id": 25,
+    "titre": "Le Misanthrope",
+    "auteur": "Molière",
+    "genre": "Poésie / Théâtre",
+    "disponible": true,
+    "mots_cles": ["théâtre", "comédie", "hypocrisie", "société"]
+  },
+  {
+    "id": 26,
+    "titre": "Tartuffe",
+    "auteur": "Molière",
+    "genre": "Poésie / Théâtre",
+    "disponible": false,
+    "mots_cles": ["théâtre", "comédie", "hypocrisie", "religion"]
+  },
+  {
+    "id": 27,
+    "titre": "L'Avare",
+    "auteur": "Molière",
+    "genre": "Poésie / Théâtre",
+    "disponible": true,
+    "mots_cles": ["théâtre", "comédie", "argent", "avarice"]
+  },
+  {
+    "id": 28,
+    "titre": "Cyrano de Bergerac",
+    "auteur": "Edmond Rostand",
+    "genre": "Poésie / Théâtre",
+    "disponible": true,
+    "mots_cles": ["théâtre", "amour", "panache", "poésie"]
+  },
+  {
+    "id": 29,
+    "titre": "1984",
+    "auteur": "George Orwell",
+    "genre": "Science-Fiction",
+    "disponible": false,
+    "mots_cles": ["dystopie", "politique", "surveillance", "totalitarisme"]
+  },
+  {
+    "id": 30,
+    "titre": "La Ferme des animaux",
+    "auteur": "George Orwell",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["dystopie", "politique", "animaux", "totalitarisme"]
+  },
+  {
+    "id": 31,
+    "titre": "Le Meilleur des mondes",
+    "auteur": "Aldous Huxley",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["dystopie", "futur", "technologie", "contrôle"]
+  },
+  {
+    "id": 32,
+    "titre": "Fahrenheit 451",
+    "auteur": "Ray Bradbury",
+    "genre": "Science-Fiction",
+    "disponible": false,
+    "mots_cles": ["dystopie", "livres", "censure", "futur"]
+  },
+  {
+    "id": 33,
+    "titre": "Dune",
+    "auteur": "Frank Herbert",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["désert", "écologie", "pouvoir", "space opera"]
+  },
+  {
+    "id": 34,
+    "titre": "Fondation",
+    "auteur": "Isaac Asimov",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["futur", "science", "empire", "prédiction"]
+  },
+  {
+    "id": 35,
+    "titre": "I, Robot",
+    "auteur": "Isaac Asimov",
+    "genre": "Science-Fiction",
+    "disponible": false,
+    "mots_cles": ["robots", "intelligence artificielle", "science", "futur"]
+  },
+  {
+    "id": 36,
+    "titre": "Neuromancien",
+    "auteur": "William Gibson",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["cyberpunk", "hacker", "futur", "intelligence artificielle"]
+  },
+  {
+    "id": 37,
+    "titre": "Snow Crash",
+    "auteur": "Neal Stephenson",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["cyberpunk", "métavers", "hacker", "futur"]
+  },
+  {
+    "id": 38,
+    "titre": "Le Problème à trois corps",
+    "auteur": "Liu Cixin",
+    "genre": "Science-Fiction",
+    "disponible": false,
+    "mots_cles": ["extraterrestre", "science", "espace", "chine"]
+  },
+  {
+    "id": 39,
+    "titre": "La Planète des singes",
+    "auteur": "Pierre Boulle",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["singes", "espace", "société", "anticipation"]
+  },
+  {
+    "id": 40,
+    "titre": "Voyage au centre de la Terre",
+    "auteur": "Jules Verne",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["aventure", "science", "souterrain", "exploration"]
+  },
+  {
+    "id": 41,
+    "titre": "Vingt mille lieues sous les mers",
+    "auteur": "Jules Verne",
+    "genre": "Science-Fiction",
+    "disponible": false,
+    "mots_cles": ["aventure", "mer", "sous-marin", "exploration"]
+  },
+  {
+    "id": 42,
+    "titre": "Le Tour du monde en 80 jours",
+    "auteur": "Jules Verne",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["aventure", "voyage", "temps", "exploration"]
+  },
+  {
+    "id": 43,
+    "titre": "De la Terre à la Lune",
+    "auteur": "Jules Verne",
+    "genre": "Science-Fiction",
+    "disponible": true,
+    "mots_cles": ["espace", "lune", "science", "aventure"]
+  },
+  {
+    "id": 44,
+    "titre": "Le Meurtre de Roger Ackroyd",
+    "auteur": "Agatha Christie",
+    "genre": "Policier / Thriller",
+    "disponible": true,
+    "mots_cles": ["enquête", "meurtre", "mystère", "policier"]
+  },
+  {
+    "id": 45,
+    "titre": "Dix petits nègres",
+    "auteur": "Agatha Christie",
+    "genre": "Policier / Thriller",
+    "disponible": false,
+    "mots_cles": ["enquête", "meurtre", "île", "mystère"]
+  },
+  {
+    "id": 46,
+    "titre": "Le Crime de l'Orient-Express",
+    "auteur": "Agatha Christie",
+    "genre": "Policier / Thriller",
+    "disponible": true,
+    "mots_cles": ["enquête", "train", "meurtre", "policier"]
+  },
+  {
+    "id": 47,
+    "titre": "Mort sur le Nil",
+    "auteur": "Agatha Christie",
+    "genre": "Policier / Thriller",
+    "disponible": true,
+    "mots_cles": ["enquête", "voyage", "meurtre", "policier"]
+  },
+  {
+    "id": 48,
+    "titre": "Le Faucon maltais",
+    "auteur": "Dashiell Hammett",
+    "genre": "Policier / Thriller",
+    "disponible": false,
+    "mots_cles": ["enquête", "détective", "noir", "policier"]
+  },
+  {
+    "id": 49,
+    "titre": "Le Grand Sommeil",
+    "auteur": "Raymond Chandler",
+    "genre": "Policier / Thriller",
+    "disponible": true,
+    "mots_cles": ["enquête", "détective", "los angeles", "noir"]
+  },
+  {
+    "id": 50,
+    "titre": "L'Adieu aux armes",
+    "auteur": "Ernest Hemingway",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["guerre", "amour", "italie", "désillusion"]
+  },
+  {
+    "id": 51,
+    "titre": "Le Vieil Homme et la Mer",
+    "auteur": "Ernest Hemingway",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["mer", "pêche", "vieillesse", "courage"]
+  },
+  {
+    "id": 52,
+    "titre": "Pour qui sonne le glas",
+    "auteur": "Ernest Hemingway",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["guerre", "espagne", "amour", "courage"]
+  },
+  {
+    "id": 53,
+    "titre": "Crime et Châtiment",
+    "auteur": "Fiodor Dostoïevski",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["meurtre", "culpabilité", "rédemption", "philosophie"]
+  },
+  {
+    "id": 54,
+    "titre": "Les Frères Karamazov",
+    "auteur": "Fiodor Dostoïevski",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["famille", "religion", "philosophie", "meurtre"]
+  },
+  {
+    "id": 55,
+    "titre": "L'Idiot",
+    "auteur": "Fiodor Dostoïevski",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["innocence", "société", "amour", "philosophie"]
+  },
+  {
+    "id": 56,
+    "titre": "Guerre et Paix",
+    "auteur": "Léon Tolstoï",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["guerre", "histoire", "famille", "russie"]
+  },
+  {
+    "id": 57,
+    "titre": "Anna Karénine",
+    "auteur": "Léon Tolstoï",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["amour", "adultère", "société", "russie"]
+  },
+  {
+    "id": 58,
+    "titre": "Cent ans de solitude",
+    "auteur": "Gabriel García Márquez",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["magie", "famille", "temps", "amérique latine"]
+  },
+  {
+    "id": 59,
+    "titre": "L'Amour aux temps du choléra",
+    "auteur": "Gabriel García Márquez",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["amour", "vieillesse", "attente", "amérique latine"]
+  },
+  {
+    "id": 60,
+    "titre": "Chronique d'une mort annoncée",
+    "auteur": "Gabriel García Márquez",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["meurtre", "honneur", "destin", "amérique latine"]
+  },
+  {
+    "id": 61,
+    "titre": "Ulysse",
+    "auteur": "James Joyce",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["dublin", "modernisme", "journée", "monologue"]
+  },
+  {
+    "id": 62,
+    "titre": "Mrs Dalloway",
+    "auteur": "Virginia Woolf",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["londres", "femme", "temps", "modernisme"]
+  },
+  {
+    "id": 63,
+    "titre": "Vers le phare",
+    "auteur": "Virginia Woolf",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["famille", "mer", "temps", "modernisme"]
+  },
+  {
+    "id": 64,
+    "titre": "Orlando",
+    "auteur": "Virginia Woolf",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["identité", "temps", "genre", "modernisme"]
+  },
+  {
+    "id": 65,
+    "titre": "Le Procès",
+    "auteur": "Franz Kafka",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["absurde", "justice", "angoisse", "bureaucratie"]
+  },
+  {
+    "id": 66,
+    "titre": "La Métamorphose",
+    "auteur": "Franz Kafka",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["absurde", "famille", "aliénation", "insecte"]
+  },
+  {
+    "id": 67,
+    "titre": "Le Château",
+    "auteur": "Franz Kafka",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["absurde", "bureaucratie", "angoisse", "attente"]
+  },
+  {
+    "id": 68,
+    "titre": "L'Homme révolté",
+    "auteur": "Albert Camus",
+    "genre": "Philosophie / Essais",
+    "disponible": true,
+    "mots_cles": ["révolte", "philosophie", "absurde", "liberté"]
+  },
+  {
+    "id": 69,
+    "titre": "Le Mythe de Sisyphe",
+    "auteur": "Albert Camus",
+    "genre": "Philosophie / Essais",
+    "disponible": false,
+    "mots_cles": ["absurde", "philosophie", "existence", "sens"]
+  },
+  {
+    "id": 70,
+    "titre": "Ainsi parlait Zarathoustra",
+    "auteur": "Friedrich Nietzsche",
+    "genre": "Philosophie / Essais",
+    "disponible": true,
+    "mots_cles": ["philosophie", "surhomme", "morale", "poésie"]
+  },
+  {
+    "id": 71,
+    "titre": "Par-delà bien et mal",
+    "auteur": "Friedrich Nietzsche",
+    "genre": "Philosophie / Essais",
+    "disponible": true,
+    "mots_cles": ["philosophie", "morale", "vérité", "critique"]
+  },
+  {
+    "id": 72,
+    "titre": "L'Être et le Néant",
+    "auteur": "Jean-Paul Sartre",
+    "genre": "Philosophie / Essais",
+    "disponible": false,
+    "mots_cles": ["existentialisme", "liberté", "philosophie", "conscience"]
+  },
+  {
+    "id": 73,
+    "titre": "L'Existentialisme est un humanisme",
+    "auteur": "Jean-Paul Sartre",
+    "genre": "Philosophie / Essais",
+    "disponible": true,
+    "mots_cles": ["existentialisme", "liberté", "philosophie", "humanisme"]
+  },
+  {
+    "id": 74,
+    "titre": "Le Deuxième Sexe",
+    "auteur": "Simone de Beauvoir",
+    "genre": "Philosophie / Essais",
+    "disponible": true,
+    "mots_cles": ["féminisme", "femme", "philosophie", "société"]
+  },
+  {
+    "id": 75,
+    "titre": "Les Mandarins",
+    "auteur": "Simone de Beauvoir",
+    "genre": "Philosophie / Essais",
+    "disponible": false,
+    "mots_cles": ["intellectuels", "après-guerre", "amour", "politique"]
+  },
+  {
+    "id": 76,
+    "titre": "La Société du spectacle",
+    "auteur": "Guy Debord",
+    "genre": "Philosophie / Essais",
+    "disponible": true,
+    "mots_cles": ["société", "spectacle", "critique", "capitalisme"]
+  },
+  {
+    "id": 77,
+    "titre": "Surveiller et punir",
+    "auteur": "Michel Foucault",
+    "genre": "Philosophie / Essais",
+    "disponible": true,
+    "mots_cles": ["prison", "pouvoir", "surveillance", "société"]
+  },
+  {
+    "id": 78,
+    "titre": "Le Petit Prince",
+    "auteur": "Antoine de Saint-Exupéry",
+    "genre": "Jeunesse",
+    "disponible": true,
+    "mots_cles": ["enfance", "amitié", "voyage", "philosophie"]
+  },
+  {
+    "id": 79,
+    "titre": "Vol de nuit",
+    "auteur": "Antoine de Saint-Exupéry",
+    "genre": "Jeunesse",
+    "disponible": false,
+    "mots_cles": ["aviation", "courage", "nuit", "héroïsme"]
+  },
+  {
+    "id": 80,
+    "titre": "Terre des hommes",
+    "auteur": "Antoine de Saint-Exupéry",
+    "genre": "Jeunesse",
+    "disponible": true,
+    "mots_cles": ["aviation", "humanisme", "aventure", "désert"]
+  },
+  {
+    "id": 81,
+    "titre": "Harry Potter à l'école des sorciers",
+    "auteur": "J.K. Rowling",
+    "genre": "Jeunesse",
+    "disponible": true,
+    "mots_cles": ["magie", "école", "amitié", "aventure"]
+  },
+  {
+    "id": 82,
+    "titre": "Harry Potter et la Chambre des secrets",
+    "auteur": "J.K. Rowling",
+    "genre": "Jeunesse",
+    "disponible": false,
+    "mots_cles": ["magie", "école", "amitié", "mystère"]
+  },
+  {
+    "id": 83,
+    "titre": "Harry Potter et le Prisonnier d'Azkaban",
+    "auteur": "J.K. Rowling",
+    "genre": "Jeunesse",
+    "disponible": true,
+    "mots_cles": ["magie", "école", "amitié", "évasion"]
+  },
+  {
+    "id": 84,
+    "titre": "Le Seigneur des anneaux",
+    "auteur": "J.R.R. Tolkien",
+    "genre": "Jeunesse",
+    "disponible": true,
+    "mots_cles": ["fantasy", "quête", "amitié", "aventure"]
+  },
+  {
+    "id": 85,
+    "titre": "Bilbo le Hobbit",
+    "auteur": "J.R.R. Tolkien",
+    "genre": "Jeunesse",
+    "disponible": false,
+    "mots_cles": ["fantasy", "quête", "dragon", "aventure"]
+  },
+  {
+    "id": 86,
+    "titre": "Charlie et la Chocolaterie",
+    "auteur": "Roald Dahl",
+    "genre": "Jeunesse",
+    "disponible": true,
+    "mots_cles": ["enfance", "chocolat", "magie", "aventure"]
+  },
+  {
+    "id": 87,
+    "titre": "Matilda",
+    "auteur": "Roald Dahl",
+    "genre": "Jeunesse",
+    "disponible": true,
+    "mots_cles": ["enfance", "école", "magie", "lecture"]
+  },
+  {
+    "id": 88,
+    "titre": "Le Bon Gros Géant",
+    "auteur": "Roald Dahl",
+    "genre": "Jeunesse",
+    "disponible": false,
+    "mots_cles": ["enfance", "rêve", "géant", "amitié"]
+  },
+  {
+    "id": 89,
+    "titre": "L'Odyssée",
+    "auteur": "Homère",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["mythologie", "voyage", "aventure", "grèce"]
+  },
+  {
+    "id": 90,
+    "titre": "L'Iliade",
+    "auteur": "Homère",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["mythologie", "guerre", "héroïsme", "grèce"]
+  },
+  {
+    "id": 91,
+    "titre": "L'Enfer",
+    "auteur": "Dante Alighieri",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["mythologie", "enfer", "voyage", "poésie"]
+  },
+  {
+    "id": 92,
+    "titre": "Don Quichotte",
+    "auteur": "Miguel de Cervantès",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["aventure", "folie", "chevalerie", "humour"]
+  },
+  {
+    "id": 93,
+    "titre": "Faust",
+    "auteur": "Johann Wolfgang von Goethe",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["démon", "pacte", "philosophie", "tragédie"]
+  },
+  {
+    "id": 94,
+    "titre": "Les Souffrances du jeune Werther",
+    "auteur": "Johann Wolfgang von Goethe",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["amour", "suicide", "romantisme", "jeunesse"]
+  },
+  {
+    "id": 95,
+    "titre": "Orgueil et Préjugés",
+    "auteur": "Jane Austen",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["amour", "mariage", "société", "angleterre"]
+  },
+  {
+    "id": 96,
+    "titre": "Raison et Sentiments",
+    "auteur": "Jane Austen",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["amour", "mariage", "société", "angleterre"]
+  },
+  {
+    "id": 97,
+    "titre": "Jane Eyre",
+    "auteur": "Charlotte Brontë",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["amour", "gouvernante", "mystère", "angleterre"]
+  },
+  {
+    "id": 98,
+    "titre": "Les Hauts de Hurlevent",
+    "auteur": "Emily Brontë",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["amour", "vengeance", "landes", "angleterre"]
+  },
+  {
+    "id": 99,
+    "titre": "Le Portrait de Dorian Gray",
+    "auteur": "Oscar Wilde",
+    "genre": "Littérature étrangère",
+    "disponible": true,
+    "mots_cles": ["beauté", "jeunesse", "corruption", "art"]
+  },
+  {
+    "id": 100,
+    "titre": "Dracula",
+    "auteur": "Bram Stoker",
+    "genre": "Littérature étrangère",
+    "disponible": false,
+    "mots_cles": ["vampire", "horreur", "mystère", "gothique"]
+  }
+]

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiblioBot 📚 - Chatbot Bibliothèque</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+
+  <body>
+    <div class="chat-container">
+      <!-- En-tête -->
+      <header class="chat-header">
+        <div class="avatar">📚</div>
+        <div class="header-info">
+          <h1>BiblioBot</h1>
+          <p>Assistant de la bibliothèque</p>
+        </div>
+        <span class="status">● En ligne</span>
+      </header>
+
+      <!-- Zone de messages -->
+      <main class="chat-messages" id="chatMessages">
+        <div class="message bot-message">
+          <div class="message-content">
+            Bonjour ! 👋 Je suis <strong>BiblioBot</strong>, l'assistant de la
+            bibliothèque.<br />
+            Pose-moi une question, par exemple :<br />
+            • <em>"Un livre de Victor Hugo"</em><br />
+            • <em>"Un roman de science-fiction"</em><br />
+            • <em>"Un livre sur la politique"</em>
+          </div>
+        </div>
+      </main>
+
+      <!-- Suggestions rapides -->
+      <div class="suggestions" id="suggestions">
+        <button class="suggestion-btn" data-message="Un livre de Victor Hugo">
+          Victor Hugo
+        </button>
+        <button
+          class="suggestion-btn"
+          data-message="Un livre de science-fiction"
+        >
+          Science-Fiction
+        </button>
+        <button class="suggestion-btn" data-message="Un livre sur la politique">
+          Politique
+        </button>
+        <button class="suggestion-btn" data-message="Aide">Aide</button>
+      </div>
+
+      <!-- Zone de saisie -->
+      <footer class="chat-input-container">
+        <form id="chatForm" class="chat-form">
+          <input
+            type="text"
+            id="userInput"
+            class="chat-input"
+            placeholder="Écris ton message..."
+            autocomplete="off"
+            required
+          />
+          <button type="submit" class="send-btn" id="sendBtn">
+            <span>Envoyer</span> ➤
+          </button>
+        </form>
+      </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
